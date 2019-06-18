@@ -4,7 +4,7 @@ MAINTAINER JCD "jcd717@outlook.com"
 
 LABEL  maintainer="JCD jcd717@outlook.com" \
        description="test" \
-       auteur "bruno dubois" 
+       auteur="bruno dubois" 
 
 #ARG hbs=2
 
@@ -14,8 +14,7 @@ RUN chmod +x /entrypoint.sh ; \
 
 
 ARG hbs=3
-#ENV HEARTBEATSTEP $hbs
-ENV HEARTBEATSTEP 3
+ENV HEARTBEATSTEP $hbs
 
 
 #Information de port réseau utile
